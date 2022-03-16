@@ -20,7 +20,7 @@ function FeedScreen() {
   }, []);
 
   return (
-    <Box>
+    <Box safeArea>
       <Center>
         <FlatList
           data={myJson}
